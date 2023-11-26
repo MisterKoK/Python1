@@ -19,14 +19,13 @@ from config_reader import config
 
 # Для записей с типом Secret* необходимо
 # вызывать метод get_secret_value(),
-# чтобы получить настоящее содержимое вместо '*******'
+# чтобы получить настоящее содержимое вместо '*******' Токен вынес в файл .env
 bot = Bot(token=config.bot_token.get_secret_value())
 
 
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
-# Объект бота
-#bot = Bot(token="6092325661:AAFZ_djJ3nkusxLlLG9AChs4GcQ-LYoJreE")
+
 # Диспетчер
 dp = Dispatcher()
 
