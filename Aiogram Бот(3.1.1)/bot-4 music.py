@@ -14,7 +14,7 @@ from aiogram.types import FSInputFile, URLInputFile
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
 # Объект бота
-bot = Bot(token="6092325661:AAFZ_djJ3nkusxLlLG9AChs4GcQ-LYoJreE")
+bot = Bot(token="6111")
 # Диспетчер
 dp = Dispatcher()
 
