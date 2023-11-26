@@ -2,9 +2,6 @@
 # https://mastergroosha.github.io/aiogram-3-guide/quickstart/#hello-world
 
 # MrKoKstelebot
-# Use this token to access the HTTP API:
-# 6092325661:AAFZ_djJ3nkusxLlLG9AChs4GcQ-LYoJreE
-
 
 import asyncio
 import logging
